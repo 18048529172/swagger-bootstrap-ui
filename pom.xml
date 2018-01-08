@@ -12,8 +12,8 @@
     <url>https://git.oschina.net/xiaoym/swagger-bootstrap-ui</url>
     <developers>
         <developer>
-            <id>xiaoym</id>
-            <name>肖玉民</name>
+            <id>liw</id>
+            <name>李伟</name>
             <email>xiaoymin@foxmail.com</email>
             <roles>
                 <role>Java Development Engineer</role>
@@ -84,8 +84,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -105,7 +105,7 @@
             <build>
                 <plugins>
                     <!-- Source -->
-                    <plugin>
+                    <!--<plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
                         <version>2.2.1</version>
@@ -117,7 +117,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                     <!-- Javadoc -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -133,7 +133,7 @@
                         </executions>
                     </plugin>
                     <!-- GPG -->
-                    <plugin>
+                    <!--<plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <version>1.6</version>
@@ -145,7 +145,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                 </plugins>
             </build>
             <distributionManagement>
